@@ -36,6 +36,5 @@ describe('template', () => {
     }
     expect(template(input).length).to.eql(3)
   })
-
 })
 

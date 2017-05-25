@@ -42,7 +42,6 @@ describe('template', function () {
         "yelp_link": "https://yelp.com/pizza-r-us"
       }
     };
-
     (0, _chai.expect)((0, _family_friday2.default)(input).length).to.eql(3);
   });
 });
