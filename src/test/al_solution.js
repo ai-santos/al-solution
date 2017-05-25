@@ -1,6 +1,6 @@
 import chai, { expect } from 'chai'
 import chaiChange from 'chai-change'
-import template from '..'
+import template from '../family_friday.js'
 
 chai.use(chaiChange)
 
@@ -34,7 +34,6 @@ describe('template', () => {
           "yelp_link": "https://yelp.com/pizza-r-us"
       }
     }
-
     expect(template(input).length).to.eql(3)
   })
 
